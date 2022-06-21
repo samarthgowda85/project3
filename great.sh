@@ -15,7 +15,7 @@ elif [ $num2 -gt $num1 ] && [ $num2 -gt $num3 ]
 then
 	echo "$num2 is greater"
 
-:elif [ $num1 -eq $num2 ] && [ $num1 -eq $num3 ] && [ $num2 -eq $num3 ]
+elif [ $num1 -eq $num2 ] && [ $num1 -eq $num3 ] && [ $num2 -eq $num3 ]
 then
 	echo " all are equal"
 else

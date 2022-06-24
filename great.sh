@@ -17,7 +17,7 @@ then
 
 elif [ $num1 -eq $num2 ] && [ $num1 -eq $num3 ] && [ $num2 -eq $num3 ]
 then
-	echo " all are equal"
+	echo " all the numbers are equal"
 else
 	echo "$num3 is greater"
 fi
